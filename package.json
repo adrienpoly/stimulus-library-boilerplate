@@ -1,7 +1,7 @@
 {
   "name": "stimulus-library-boilerplate",
   "version": "1.0.0",
-  "description": "A boilplate to create standart Stimulus Controllers",
+  "description": "A boilplate to create standard Stimulus Controller NPM package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
@@ -10,6 +10,7 @@
   "license": "MIT",
   "external": "stimulus",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open",
     "build": "rollup -c",
     "dev": "rollup -wc",
     "test": "cross-env NODE_ENV=test karma start",
@@ -57,7 +58,8 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-middleware": "^3.6.1"
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-dev-server": "^3.2.1"
   },
   "repository": {
     "type": "git",

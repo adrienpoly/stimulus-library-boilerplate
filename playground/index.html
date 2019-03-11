@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playground Stimulus Controller Boilerplate</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="bundle.js" async></script>
+  </head>
+  <body>
+    <div data-controller="hello">
+      <input data-target="hello.name" type="text" />
+
+      <button data-action="click->hello#greet">
+        Greet
+      </button>
+
+      <span data-target="hello.output"> </span>
+    </div>
+  </body>
+</html>

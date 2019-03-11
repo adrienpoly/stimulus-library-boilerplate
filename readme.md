@@ -7,7 +7,7 @@
 <br />
 
 - **Rollup**: Roll up configuration to build umd, es, cjs bundles.
-- **Predefined scripts**: yarn build, yarn dev, yarn test... a commonly used predefined scripts.
+- **Predefined scripts**: yarn build, yarn dev, yarn test... commonly used predefined scripts.
 - **Testing environment**: Mocha, Chai, Karma & the gang to easily test your controller.
 
 ## Getting started
@@ -27,11 +27,21 @@ yarn install
 
 ## Scripts
 
-- `yarn build` : bundle in production mode & builds package in the `dist`directory
+- `yarn build` : bundle in production mode & builds the package in the `dist` directory
 - `yarn dev` : watch for changes & bundle in development mode
 - `yarn test` : launch the test suite in a headless browser
 - `yarn test:watch` : watch for changes & launch the test suite in a headless browser
 - `yarn test:browser` : watch for changes & launch the test suite in a chrome browser
+
+## Playground
+
+When developing a controller you might want to set up a little playground environment to play & test your controller.
+In `./playground` you can modify `index.html` & `index.js` to suit your need.
+The playground can be started with :
+
+```bash
+yarn start
+```
 
 ## Contributing
 
