@@ -21,9 +21,9 @@ rm -rf .git
 yarn install
 ```
 
-- rename the package name in `package.json``
-- code your controller in `src/index.js``
-- add tests & fixtures in `spec``
+- rename the package name in `package.json`
+- code your controller in `src/index.js`
+- add tests & fixtures in `spec`
 
 ## Scripts
 
