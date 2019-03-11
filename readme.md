@@ -24,6 +24,7 @@ yarn install
 - rename the package name in `package.json`
 - code your controller in `src/index.js`
 - add tests & fixtures in `spec`
+- `yarn build` & publish it with `npm publish` (you need to create an account on npm first)
 
 ## Scripts
 
