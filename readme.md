@@ -1,7 +1,7 @@
 <h1 align="center">Stimulus-Library-Boilerplate</h1>
 
 <p align="center">
-  <b>A boilerplate to quickly package standard Stimulus controllers in a NPM bundle</b></br>
+  <b>A simple boilerplate to publish standard Stimulus Controller as an NPM package</b></br>
 </p>
 
 <br />
@@ -15,8 +15,22 @@
 To create a new package clone and rename this repo
 
 ```bash
-
+git clone https://github.com/adrienpoly/stimulus-library-boilerplate.git
+mv stimulus-library-boilerplate my-controller-name
+cd my-controller-name
 ```
+
+- rename the package name in `package.json``
+- code your controller in `src/index.js``
+- add tests & fixtures in `spec``
+
+## Scripts
+
+- `yarn build` : bundle in production mode & builds package in the `dist`directory
+- `yarn dev` : watch for changes & bundle in development mode
+- `yarn test` : launch the test suite in a headless browser
+- `yarn test:watch` : watch for changes & launch the test suite in a headless browser
+- `yarn test:browser` : watch for changes & launch the test suite in a chrome browser
 
 ## Contributing
 
