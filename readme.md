@@ -15,8 +15,7 @@
 To create a new package clone and rename this repo
 
 ```bash
-git clone https://github.com/adrienpoly/stimulus-library-boilerplate.git
-mv stimulus-library-boilerplate my-controller-name
+git clone https://github.com/adrienpoly/stimulus-library-boilerplate.git my-controller-name
 cd my-controller-name
 rm -rf .git
 yarn install
