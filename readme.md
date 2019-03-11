@@ -18,6 +18,8 @@ To create a new package clone and rename this repo
 git clone https://github.com/adrienpoly/stimulus-library-boilerplate.git
 mv stimulus-library-boilerplate my-controller-name
 cd my-controller-name
+rm -rf .git
+yarn install
 ```
 
 - rename the package name in `package.json``
