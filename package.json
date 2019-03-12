@@ -1,6 +1,6 @@
 {
   "name": "stimulus-library-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A boilerplate to create standard Stimulus Controller NPM package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
